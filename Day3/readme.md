@@ -26,14 +26,6 @@ module opt_check2(input a, input b, output y);
     assign y = a ? 1 : b;
 endmodule
 
-// -----------------------------------------------------
-// Lab 3: Same as Lab 2
-// Description: Demonstrates repeated constant output logic
-// -----------------------------------------------------
-module opt_check3(input a, input b, output y);
-    assign y = a ? 1 : b;
-endmodule
-
 // --------------------------------------------------------------------
 // Lab 4: Nested conditional (ternary) logic using three inputs
 // Description: Complex combinational decision using ternary operator
