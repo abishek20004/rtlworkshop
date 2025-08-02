@@ -4,9 +4,9 @@
 
 ---
 
-### 🕒 Timing Library
-- A **Timing Library** provides information on **delay, power, and functionality** of standard cells.
-- Used for **Static Timing Analysis (STA)** and synthesis processes in IC design.
+###   Library
+- A Timing Library provides information on **delay, power, and functionality** of standard cells.
+- Used for Static Timing Analysis and synthesis processes in IC design.
 
 ---
 
