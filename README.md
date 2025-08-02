@@ -61,6 +61,20 @@ module tb_good_mux;
     always #55 i1 = ~i1;
 endmodule
 
+---
+### Design Flow
+
+[ Verilog Design ]        [ Testbench ]
+        ↓                      ↓
+      Icarus Verilog (iverilog)
+        ↓
+    Simulation Output (vvp)
+        ↓
+   Waveform File (tb_good_mux.vcd)
+        ↓
+        GTKWave (Waveform Viewer)
+
+
 
 
 
