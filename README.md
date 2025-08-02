@@ -28,4 +28,6 @@ module good_mux (input i0, input i1, input sel, output reg y);
     end
 endmodule
 
+![Screenshot](Screenshot%202025-07-31%20093933.png)
+
 
