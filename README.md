@@ -28,6 +28,10 @@ module good_mux (input i0, input i1, input sel, output reg y);
     end
 endmodule
 
-![Screenshot](Screenshot%202025-07-31%20093933.png)
+<h2>Example Output</h2>
+<p align="center">
+  <img src="Screenshot%202025-07-31%20093933.png" alt="Waveform Screenshot" width="800">
+</p>
+
 
 
