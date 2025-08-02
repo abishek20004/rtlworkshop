@@ -74,6 +74,39 @@ endmodule
         ↓
         GTKWave (Waveform Viewer)
 
+# rtlworkshop
+
+## RTL Design and Synthesis Workshop using Sky130
+
+### Gate-Level Simulation using Yosys
+
+---
+
+## 🧠 Recap: RTL to Gates
+
+RTL design describes how data flows using registers and logic. **Synthesis** translates this high-level design into logic gates using standard cell libraries like **Sky130**.
+
+---
+
+## 🔨 Synthesis Flow using Yosys
+
+### 🔹 RTL to Netlist Steps
+
+```bash
+# Step-1: Read RTL
+yosys> read_verilog good_mux.v
+
+# Step-2: Perform Synthesis
+yosys> synth -top good_mux
+
+# Step-3: Map to Sky130 standard cells
+yosys> dfflibmap -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
+yosys> abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
+
+# Step-4: Write gate-level netlist
+yosys> write_verilog good_mux_netlist.v
+
+
 
 
 
